@@ -1,0 +1,90 @@
+
+/* pc */
+@media (min-width:1024px) {
+   #header .mobile-btn{
+
+   }
+}
+/* tablet */
+@media (max-width:1023px) and (min-width:740px){
+    .Tablet{
+        display: block;
+    }
+    #nav .subnav a {
+        padding: 5px 16px;
+        /* đẩy lên thành 48px */
+       
+    }
+}
+/* mobile and tablet */
+@media (max-width:1023px){
+    .btn{
+        padding: 17px 16px;
+    }
+    .contact-info{
+        line-height:2;
+        /* khoảng cách giữa các dòng */
+    }
+    #footer .socials-list {
+        font-size: 48px;
+    }
+    .socials-list a{
+       margin: 0 8px;
+    }
+    #footer .footer-desc {
+        /* display: inline-block; */
+        /* làm như vậy thì dòng desc sẽ cách ra 
+        bởi thì nó thừa kế khối block bị padding của desc a nên
+        phải bị đẩy xuống */
+    }
+    #footer .footer-desc a {
+        padding: 13px 0px;
+    }
+}
+/* mobile */
+@media (max-width:739px){
+    .s-width-full{
+        width:100%;
+    }
+    .s-col-full{
+        width:100%;
+    }
+    .s-mt8{
+        margin-top:8px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .search-icon{
+        display: none;
+    }
+    #header .menu-btn{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        /* trả lại vị trí của menu cấp 2 */
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 38px;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+   
+}
