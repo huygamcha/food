@@ -86,5 +86,8 @@
     .contact-form{
         margin-top: 32px;
     }
+    #footer .socials-list {
+        font-size: 38px;
+    }
    
 }
